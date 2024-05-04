@@ -24,3 +24,16 @@ You can install these dependencies via pip:
 `pip install deepface`
 
 After this step running the contents on the Live Face Recognition folder should detect your live facial expressions by opening your camera.⭐
+
+# Model Training 
+The FacialEmotionAnalysis.ipynb File contains the code for training the model from the  [FER 2013 Dataset](https://www.kaggle.com/datasets/msambare/fer2013).
+
+Make sure to download the data set from this link before running the model.
+
+This first cell contains this code where you unzip and save the dataset for training so choose the appropriate zip file.
+
+from google.colab import files
+uploaded = files.upload()
+for fn in uploaded.keys():
+  print('User uploaded file "{name}" with length {length} bytes'.format(name=fn, length=len(uploaded[fn])))
+
