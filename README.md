@@ -6,6 +6,7 @@ Our primary objective is to develop a robust and accurate system capable of auto
 
 # Features
 Real-time Emotion Detection: Our trained model can analyze live video streams and detect facial expressions in real-time.
+
 Multi-class Classification: The model classifies facial expressions into multiple emotion categories simultaneously.
 
 # Why Facial Expression Recognition?
