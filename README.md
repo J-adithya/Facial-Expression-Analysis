@@ -32,8 +32,13 @@ Make sure to download the data set from this link before running the model.
 
 This first cell contains this code where you unzip and save the dataset for training so choose the appropriate zip file.
 
-from google.colab import files
+`from google.colab import files
 uploaded = files.upload()
 for fn in uploaded.keys():
-  print('User uploaded file "{name}" with length {length} bytes'.format(name=fn, length=len(uploaded[fn])))
+  print('User uploaded file "{name}" with length {length} bytes'.format(name=fn, length=len(uploaded[fn])))`
 
+You will get a choose file button below the cell make sure to choose the unextracted zip file.
+
+The rest of the code will allow you to take a photograph from your camera and read your facial expression.
+
+Thank You for Reading.💙
